@@ -5,12 +5,9 @@ const Product = () => {
   return (
     <div className='product'>
         <div className="title">
-            <span>kategoriya</span>
-            <h1>Mahsulotlar</h1>
-            <hr />
-        </div>
-        <div className="product__body">
-            
+            <span>категория</span>
+            <h1>Продукты</h1>
+            <button className="btn"></button>
         </div>
     </div>
   )

@@ -1,6 +1,6 @@
 .downloadCat {
     width: 100%;
-    padding: 3vw;
+    height: 150px;
     background-color: #ffa723;
 }
 
@@ -17,6 +17,7 @@
     border: none;
     border-radius: 1vw;
     transition: 0.3s;
+    cursor:cell;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +25,8 @@
     font-family: "Light";
     transition: all 0.3s;
     column-gap: 15px;
-    margin-top: -55px;
+    margin-top: -25px;
+    margin-left: 35px;
     z-index: 90;
     position: relative;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Nav.css';
+import logo from '../assets/Vector.svg';
 
 import { FiVolume2 } from 'react-icons/fi';
 
@@ -15,19 +16,16 @@ const Nav = () => {
           <img src="https://therepublicoftoys.uz/img/nav/logo.svg" alt="" />
         </div>
         <ul className='nav_collection'>
-          <li><a href="#">Asosiy</a></li>
-          <li><a href="#">Mahsulotlar</a></li>
-          <li><a href="#">Biz haqimizda</a></li>
-          <li><a href="#">Ko'rgazmalar</a></li>
-          <li><a href="#">Hamkorlar</a></li>
-          <li><a href="#">Bog'lanish</a></li>
           <li>
-            <select className='langSelect'>
-              <option value="uz">uz</option>
-              <option value="ru">ru</option>
-              <option value="eng">eng</option>
-            </select>
+            <li className="active"></li>
           </li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Showroom</a></li>
+          <li><a href="#">Partner</a></li>
+          <li><a href="#">Partner</a></li>
+          
           <li>
             <div className="volume">
               <div className="upper">
@@ -41,10 +39,16 @@ const Nav = () => {
             </div>
           </li>
           <li>
+            <select className='langSelect'>
+              <option value="uz">UZB</option>
+              <option value="ru">RUS</option>
+              <option value="eng">ENG</option>
+            </select>
+          </li>
+          <li>
             <a href="#">
-              <button className='nav_button' type='role'>
-                <img src="" alt="" />
-                <span>99 111 23 45</span>
+              <button className='nav_button'>
+                <span> <img src={logo} alt="Logo" className="images" /> <p> 99 111 23 45</p></span>
               </button>
             </a>
           </li>

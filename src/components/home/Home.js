@@ -16,7 +16,8 @@ const Home = () => {
       <Slider className="mainSlider" asNavFor={nav2}>
         <div className="swiper_item">
           <div className="swiper_text">
-            <h1>Havfsiz va bejirim</h1>
+            <h1>Скидка -30%</h1>
+            <p>with our products</p>
             <button className="swiper_btn">Batafsil 
                 <img src="https://therepublicoftoys.uz/static/media/btnarrow.a886bf66.svg" alt="" />
             </button>
@@ -30,7 +31,8 @@ const Home = () => {
         </div>
         <div className="swiper_item">
           <div className="swiper_text">
-            <h1>Farzandlaringiz tanlovi</h1>
+            <h1>Enjoy with </h1>
+            <p>with our products</p>
             <button className="swiper_btn">Batafsil 
                 <img src="https://therepublicoftoys.uz/static/media/btnarrow.a886bf66.svg" alt="" />
             </button>
@@ -44,7 +46,8 @@ const Home = () => {
         </div>
         <div className="swiper_item">
           <div className="swiper_text">
-            <h1>Mahsulotlarimizdan zavqlaning</h1>
+            <h1>Safe and attractive</h1>
+            <p>with our products</p>
             <button className="swiper_btn">Batafsil
                 <img src="https://therepublicoftoys.uz/static/media/btnarrow.a886bf66.svg" alt="" />
             </button>

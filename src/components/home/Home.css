@@ -42,7 +42,15 @@
   font-size: 4.6vw;
   width: 90%;
 }
-
+.swiper_text p{
+  font-style: normal;
+  font-family:sans-serif;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 38px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}
 .swiper_text > button {
   background-color: #5fceff;
   color: #fff;
@@ -62,6 +70,7 @@
 
 .swiper_text > button:hover {
   transform: scale(0.9);
+  cursor: pointer;
 }
 
 .swiper_img {
@@ -71,7 +80,7 @@
 }
 
 .swiper_btn > img {
-  width: 1.9vw;
+  width: 1.5vw;
   margin-left: 20px;
 }
 .slick-next:focus,

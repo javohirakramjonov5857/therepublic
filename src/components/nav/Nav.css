@@ -5,7 +5,23 @@
   display: flex;
   justify-content: space-evenly;
 }
-
+nav li:first-child:before {
+  left: 1.3vw;
+  content: "";
+  position: absolute;
+}
+nav .active:before {
+  width: 7vw;
+  height: 15vw;
+  background-color: #ffa723;
+  position: absolute;
+  content: "";
+  top: -12vw;
+  border-radius: 10vw;
+  left: -1vw;
+  z-index: 1;
+  animation: forbefor .4s both;
+}
 .nav_wrapper {
   display: flex;
   align-items: center;
@@ -75,16 +91,30 @@
 }
 
 .nav_button {
+  width: 170px;
+  height: 40px;
   background-color: #FFA723;
   border: none;
+  cursor: pointer;
   outline: none;
-  padding: 12px 27.32px;
-  border-radius: 7px;
   color: #fff;
-  transition: all 0.3s;
+  border-radius: 7.76923px;
+  
+}
+.nav_button .images{
+  width: 15px;
+  margin-left: -10px;
+}
+.nav_button span {
+  display: flex;
+  column-gap: 15px;
+  justify-content: center;
+}
+.nav_button span p{
+  font-weight: 600;
 }
 
-.nav_button:hover {
+.nav_button:active {
   transform: scale(0.9);
 }
 
