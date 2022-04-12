@@ -24,7 +24,7 @@ const Nav = () => {
           <li><a href="#">About</a></li>
           <li><a href="#">Showroom</a></li>
           <li><a href="#">Partner</a></li>
-          <li><a href="#">Partner</a></li>
+          <li><a href="#">Contact</a></li>
           
           <li>
             <div className="volume">
