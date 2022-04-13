@@ -4,6 +4,7 @@ import Home from './components/home/Home';
 import Nav from './components/nav/Nav';
 import Product from './components/product/Product';
 import Igracard from './components/Igracard/igracard'
+import Sovgalar from './components/Sovgalar/sovgalar';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <DownloadCat/>
       <Product />
       <Igracard />
+      <Sovgalar />
     </div>
   );
 }

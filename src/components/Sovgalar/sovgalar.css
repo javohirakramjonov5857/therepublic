@@ -1,0 +1,34 @@
+body{
+    font-family: 'PF BeauSans Pro';
+}
+.product1{
+    height: 150px;
+    background: #F9FDFF;
+    
+}
+ .title span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    color: #FFBF60;
+}
+.title h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #05A1E4;
+}
+.title {
+    margin-top: 80px;
+    text-align: center;
+    padding-top: 30px;
+}
+.btn{
+    width: 56px;
+    height: px;
+    border: 2px solid #FFBF60;
+
+}
