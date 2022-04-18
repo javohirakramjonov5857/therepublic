@@ -1,0 +1,84 @@
+.footer{
+    height: 450px;
+    background-color: #0AA3E4;
+}
+.footer_h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    padding-top: 80px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.input_boshi{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.form-control{
+    width: 160px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B7A8A8;
+    background-color: white;
+
+}
+.form-control1{
+    width: 160px;
+    height: 40px;
+    border: none;
+    margin-left: 17px;
+    outline: none;
+    padding-left: 8px;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B7A8A8;
+    background-color: white;
+
+}
+.form-control2{
+    width: 335px;
+    border: none;
+    outline: none;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B7A8A8;
+    background-color: white;
+}
+.footer_btn{
+    width: 335px;
+    height: 40px;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    background: #FFA723;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.footer_btn:active{
+    transition: all 0.1s;
+    cursor: pointer;
+    transform:rotateX(40deg);
+}

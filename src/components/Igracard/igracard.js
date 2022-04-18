@@ -1,6 +1,8 @@
 import React from "react";
 import './igracard.css';
-import Foto from '../assets/salom.svg';
+import Foto from '../assets/2000.svg';
+import Fotol from '../assets/13.svg';
+import Fotos from '../assets/14.svg';
 
 
 export default function Igracard(){
@@ -19,11 +21,11 @@ export default function Igracard(){
                 <h2>Экспортирумый государство</h2>
                 </div>
                 <div className="igracard_card1">
-                <img src={Foto} alt="Logo" className="images" />
+                <img src={Fotol} alt="Logo" className="images" />
                 <h2>Экспортирумый государство</h2>
                 </div>
                 <div className="igracard_card">
-                <img src={Foto} alt="Logo" className="images" />
+                <img src={Fotos} alt="Logo" className="images" />
                 <h2>Экспортирумый государство</h2>
                 </div>
                 <div className="igracard_card1">

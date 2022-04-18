@@ -10,6 +10,11 @@ nav li:first-child:before {
   content: "";
   position: absolute;
 }
+nav li:first-child:before {
+  left: 1.3vw;
+  content: "";
+  position: absolute;
+}
 nav .active:before {
   width: 7vw;
   height: 15vw;
@@ -21,7 +26,7 @@ nav .active:before {
   left: -1vw;
   z-index: 1;
   animation: forbefor .4s both;
-}
+  }
 .nav_wrapper {
   display: flex;
   align-items: center;

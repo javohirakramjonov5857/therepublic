@@ -34,7 +34,6 @@ const Nav = () => {
                     setVolume(e.target.value)
                     console.log(e);
                 }} type="range" className='volume_input'/>
-                {/* <p>{volume}</p>  */}
               </div>
             </div>
           </li>
